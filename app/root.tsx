@@ -4,24 +4,20 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useLoaderData,
 } from "@remix-run/react";
-import type { LinksFunction } from "@remix-run/node";
 
 import "./tailwind.css";
+import Header from "./components/navigation/navbar";
+import Footer from "./components/navigation/footer";
+import { locationsData } from "./config/school-constants";
+import { LoaderFunctionArgs } from "@remix-run/node";
 
-export const links: LinksFunction = () => [
-  { rel: "preconnect", href: "https://fonts.googleapis.com" },
-  {
-    rel: "preconnect",
-    href: "https://fonts.gstatic.com",
-    crossOrigin: "anonymous",
-  },
-  {
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
-  },
-];
-
+export const loader = async ({ params }: LoaderFunctionArgs): Promise<any> => {
+  const schoolName = process.env.SCHOOL_VALUE as keyof typeof locationsData;
+  const logo = locationsData[schoolName].varient;
+  return logo;
+};
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
@@ -41,11 +37,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
+  const logo = useLoaderData<string>();
   return (
     <>
-      navbar
+      <Header variant={logo} />
       <Outlet />
-      footer
+      <Footer />
     </>
   );
 }
