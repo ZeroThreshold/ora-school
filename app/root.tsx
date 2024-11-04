@@ -38,6 +38,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   const logo = useLoaderData<string>();
+
   return (
     <>
       <Header variant={logo} />

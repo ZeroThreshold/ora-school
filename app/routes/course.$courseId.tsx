@@ -34,14 +34,25 @@ type CourseData = {
   description: string;
   infoItems: { question: string; listItem: boolean; info: string | string[] }[];
   batches: { title: string; times: { time: string; active: boolean }[] }[];
-  pricelist: { title: string; prices: { price: number; duration: string }[] }[];
+  pricelist: {
+    title: string;
+    prices: {
+      price: number;
+      duration: string;
+      maxRiders: number;
+      minRiders: number;
+    }[];
+  }[];
   level: string;
 };
 export const loader = async ({ params }: LoaderFunctionArgs): Promise<any> => {
   const { courseId } = params;
 
   const locationKey = process.env.SCHOOL_VALUE as keyof typeof locationsData;
-  const course = locationsData[locationKey]?.courses[courseId as keyof typeof locationsData[typeof locationKey].courses];
+  const course =
+    locationsData[locationKey]?.courses[
+      courseId as unknown as keyof (typeof locationsData)[typeof locationKey]["courses"]
+    ];
 
   if (!course) {
     throw new Response("Course not found", { status: 404 });
@@ -70,7 +81,9 @@ export default function CourseDetails() {
             </div>
             <div className="text-base mt-1">
               Address:{" "}
-              <span className="text-gray-500">{locationsData.driftr_pune.address}</span>
+              <span className="text-gray-500">
+                {locationsData.driftr_pune.address}
+              </span>
             </div>
           </div>
           <BookNow course={course} locationData={locationsData} />
@@ -127,7 +140,6 @@ export default function CourseDetails() {
     </div>
   );
 }
-
 
 const BatchTimings = ({ batches }: { batches: Batches[] }) => {
   return (

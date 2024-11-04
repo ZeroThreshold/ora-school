@@ -17,11 +17,24 @@ export const loader = async ({ params }: LoaderFunctionArgs): Promise<any> => {
   const locationInfo = getLocationInfo(schoolName);
   return locationInfo;
 };
-                                
-export default function Index() {
-  const { title, description, bannerImage, courses } = useLoaderData<any>();
 
-  const locationInfo = useLoaderData<any>();
+type Course = {
+  img: string;
+  title: string;
+  description: string;
+};
+
+type LocationInfo = {
+  title: string;
+  description: string;
+  bannerImage: string;
+  courses: Record<string, Course>;
+};
+
+export default function Index() {
+  const { title, description, bannerImage, courses } =
+    useLoaderData<LocationInfo>();
+
   return (
     <div className="my-12 container">
       <div className="flex items-center justify-center">
