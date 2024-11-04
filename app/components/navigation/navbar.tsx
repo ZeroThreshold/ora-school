@@ -1,7 +1,7 @@
 import { Link } from "@remix-run/react";
 import Logo from "../logo";
 
-const Header = (variant: { variant: string }) => {
+const Header = ({ variant }: { variant: string }) => {
   return (
     <div className="flex bg-white border-b">
       <nav className="container p-4 lg:p-3 flex items-center justify-start gap-5 mx-auto">
