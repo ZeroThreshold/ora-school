@@ -4,6 +4,7 @@ import { getLocationInfo } from "~/services/school-service";
 import { locationsData } from "~/config/school-constants";
 import { Link } from "@remix-run/react";
 import { Button } from "~/components/ui/button";
+import Logo from "~/components/logo";
 
 export const meta: MetaFunction = () => {
   return [
@@ -29,16 +30,17 @@ type LocationInfo = {
   description: string;
   bannerImage: string;
   courses: Record<string, Course>;
+  varient: string;
 };
 
 export default function Index() {
-  const { title, description, bannerImage, courses } =
+  const { title, description, bannerImage, courses, varient } =
     useLoaderData<LocationInfo>();
 
   return (
     <div className="my-12 container">
       <div className="flex items-center justify-center">
-        <img src="/images/logos/driftr-black.png" width={400} height={300} />
+        <Logo variant={varient} width={220} height={220} />
       </div>
       <div className="my-20">
         <h1 className="text-4xl font-bold mt-4">About Us - {title}</h1>

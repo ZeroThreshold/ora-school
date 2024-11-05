@@ -9,7 +9,7 @@ const Header = ({ variant }: { variant: string }) => {
           <Logo variant="mainblack" width={220} height={220} />
         </Link>
         <div className="text-black font-normal text-xl italic">X</div>
-        <Logo variant={variant} width={220} height={220} />
+        <Logo variant={variant} width={120} height={120} />
       </nav>
     </div>
   );
