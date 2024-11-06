@@ -63,6 +63,83 @@ export default function Policy() {
                 product will not be processed..
               </li>
             </ul>
+            <h2 className="text-2xl font-bold mb-4">Refund Policy</h2>
+            <ul className="list-disc pl-8 mb-4">
+              <li>
+                <strong>Eligibility:</strong> Refunds are only issued for
+                products with verified manufacturing defects or if the product
+                is unavailable for replacement.
+              </li>
+              <li>
+                <strong>Refund Process:</strong> To request a refund, please
+                contact us at
+                <a
+                  href="mailto:sales@offroadacademies.com"
+                  className="text-blue-500"
+                >
+                  sales@offroadacademies.com
+                </a>
+                . Our team will review your request and guide you through the
+                process.
+              </li>
+              <li>
+                <strong>Refund Timeline:</strong> Refunds are processed within
+                7-10 business days after the returned product has been received
+                and inspected.
+              </li>
+              <li>
+                <strong>Defective Products:</strong> If you've received a
+                defective item and prefer a refund, please email clear images to
+                <a
+                  href="mailto:sales@offroadacademies.com"
+                  className="text-blue-500"
+                >
+                  sales@offroadacademies.com
+                </a>
+                . Our team will assist you promptly.
+              </li>
+              <li>
+                <strong>Refund Limit:</strong> Each product is eligible for a
+                maximum of one refund. Subsequent refund requests for the same
+                product will not be processed.
+              </li>
+            </ul>
+            <h2 className="text-2xl font-bold mb-4">
+              Course and Refund Policy
+            </h2>
+            <ul className="list-disc pl-8 mb-4">
+              <li>
+                <strong>Cancellation Eligibility:</strong> Course cancellations
+                are accepted only if requested before 48 hours of course start
+                date.
+              </li>
+              <li>
+                <strong>Cancellation Process:</strong> To cancel your course
+                enrollment, please email us at
+                <a
+                  href="mailto:sales@offroadacademies.com"
+                  className="text-blue-500"
+                >
+                  sales@offroadacademies.com
+                </a>
+                . Our team will assist you with the cancellation procedure.
+              </li>
+              <li>
+                <strong>Refund Timeline:</strong> If eligible, refunds for
+                canceled courses will be processed within 7-10 business days
+                from the date of cancellation.
+              </li>
+              <li>
+                <strong>Partial Attendance:</strong> No refunds are provided
+                once a course has begun, even if only partially attended. Please
+                ensure the course schedule aligns with your availability before
+                enrolling.
+              </li>
+              <li>
+                <strong>Non-Refundable Fees:</strong> Any administrative or
+                registration fees associated with the course are non-refundable.
+              </li>
+            </ul>
           </div>
         </div>
       </div>

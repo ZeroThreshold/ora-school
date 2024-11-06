@@ -20,6 +20,10 @@ const Footer = () => {
                 brands like Hero, Royal Enfield, KTM, BMW Motorrad, and more.
                 Expertise in track & route curation and motorsport events.
               </p>
+              <p className="mt-4 font-medium text-center text-gray-300 lg:text-left lg:text-base">
+                <strong>Address:</strong> #64, 9th Main, 14th Cross, Indiranagar
+                2nd Stage, Eshwara layout, Bangalore - 560038.
+              </p>
 
               <div className="mt-6 flex flex-col lg:flex-row justify-center gap-4 items-center lg:items-start lg:justify-start">
                 <Instagram />
@@ -68,7 +72,7 @@ const Footer = () => {
             </div>
 
             <div className="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
-              <div>
+              {/* <div>
                 <strong className="font-semibold text-white"> Shops </strong>
 
                 <ul className="mt-6 space-y-1">
@@ -80,7 +84,7 @@ const Footer = () => {
                       Speedshop originals
                     </a>
                   </li>
-                  {/* 
+                  
                   <li>
                     <a
                       className="text-gray-400 transition hover:text-gray-400/75"
@@ -88,9 +92,9 @@ const Footer = () => {
                     >
                       PowerTech Parts
                     </a>
-                  </li> */}
+                  </li>
                 </ul>
-              </div>
+              </div> */}
 
               <div>
                 <strong className="font-semibold text-white">Links</strong>
