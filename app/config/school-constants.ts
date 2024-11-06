@@ -11,6 +11,7 @@ export const locationsData = {
       1: {
         title: "Level 1: Flat track training - Gears Not Included",
         img: "/images/general/flattrack1.jpg",
+        coursePayLink: "https://rzp.io/rzp/5iCc0QG",
         infoItems: [
           {
             question: "What i will learn?",
@@ -82,6 +83,7 @@ export const locationsData = {
         title: "Level 1: Flat track training - Gears Included",
         img: "/images/general/flattrack2.jpg",
         level: "Intermediate",
+        coursePayLink: "https://rzp.io/rzp/pn95wjL",
         infoItems: [
           {
             question: "What i will learn?",
