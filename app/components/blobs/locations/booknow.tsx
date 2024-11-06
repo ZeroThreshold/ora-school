@@ -57,7 +57,14 @@ const BookNow = ({
         <div className="text-2xl">
           Starts from <strong className="text-3xl">₹ {leastprice}</strong>
         </div>
-        <a href="/">Book Now</a>
+        <a
+          href={course.coursePayLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-center border p-3 bg-slate-950 text-white font-medium rounded-lg"
+        >
+          Book Now
+        </a>
       </div>
     </>
   );
