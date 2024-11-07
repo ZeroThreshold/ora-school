@@ -1,23 +1,9 @@
-import type { MetaFunction, LoaderFunctionArgs } from "@remix-run/node";
-import { useLoaderData } from "@remix-run/react";
+import type { MetaFunction, LoaderFunction } from "@remix-run/node";
+import { useLoaderData, Link } from "@remix-run/react";
+
 import { getLocationInfo } from "~/services/school-service";
-import { locationsData } from "~/config/school-constants";
-import { Link } from "@remix-run/react";
-import { Button } from "~/components/ui/button";
-import Logo from "~/components/logo";
-
-export const meta: MetaFunction = () => {
-  return [
-    { title: "TVS DRIFT-R" },
-    { name: "description", content: "Welcome to school" },
-  ];
-};
-
-export const loader = async ({ params }: LoaderFunctionArgs): Promise<any> => {
-  const schoolName = process.env.SCHOOL_VALUE as keyof typeof locationsData;
-  const locationInfo = getLocationInfo(schoolName);
-  return locationInfo;
-};
+import { LOCATION } from "~/config/text_constants";
+import Logo from "~/components/general/logo";
 
 type Course = {
   img: string;
@@ -30,17 +16,37 @@ type LocationInfo = {
   description: string;
   bannerImage: string;
   courses: Record<string, Course>;
-  varient: string;
+  variant: string;
+  seoKeywords: string[];
+};
+
+export const meta: MetaFunction = ({ data }: { data: unknown }) => {
+  const locationInfo = data as LocationInfo;
+
+  return [
+    { title: locationInfo.title },
+    { name: "description", content: locationInfo.description },
+    { name: "keywords", content: locationInfo.seoKeywords },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
+    { name: "robots", content: "index, follow" },
+  ];
+};
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const loader: LoaderFunction = async () => {
+  const schoolName = process.env.SCHOOL_VALUE as keyof typeof LOCATION;
+  const locationInfo = getLocationInfo(schoolName);
+  return locationInfo;
 };
 
 export default function Index() {
-  const { title, description, bannerImage, courses, varient } =
+  const { title, description, bannerImage, courses, variant } =
     useLoaderData<LocationInfo>();
 
   return (
     <div className="my-12 container">
       <div className="flex items-center justify-center">
-        <Logo variant={varient} width={220} height={220} />
+        <Logo variant={variant} width={220} height={220} />
       </div>
       <div className="my-20">
         <h1 className="text-4xl font-bold mt-4">About Us - {title}</h1>
@@ -78,8 +84,10 @@ export default function Index() {
                   {course.description}
                 </p>
               </div>
-              <Link to={`/course/${id}`} className="px-4 py-2 mb-3">
-                <Button className="gap-4 mt-4">Book Now</Button>
+              <Link to={`${id}`} className="px-4 py-2 mb-3">
+                <button className="gap-4 mt-4 bg-slate-900 text-white p-3 font-medium rounded">
+                  Book Now
+                </button>
               </Link>
             </div>
           ))}

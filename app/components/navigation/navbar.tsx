@@ -1,5 +1,5 @@
 import { Link } from "@remix-run/react";
-import Logo from "../logo";
+import Logo from "../general/logo";
 
 const Header = ({ variant }: { variant: string }) => {
   return (
