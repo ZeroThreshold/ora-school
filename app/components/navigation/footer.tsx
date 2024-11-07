@@ -1,15 +1,14 @@
 import { Instagram, Mail, Phone } from "lucide-react";
 import { Link } from "@remix-run/react";
-
-import type { LinksFunction } from "@remix-run/node";
+import Logo from "../general/logo";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-black ">
-      <div className="text-white container ">
+    <footer className="w-full bg-black">
+      <div className="text-white container">
         <div className="mx-auto px-4 pb-8 pt-16 lg:px-0">
           <div className="flex justify-center lg:justify-start">
-            <img src="/images/logos/main-white.png" width={200} height={50} />
+            <Logo variant="mainwhite" width={200} height={50} />
           </div>
 
           <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
@@ -43,9 +42,9 @@ const Footer = () => {
                 >
                   @prodirt_adventure
                 </a>
-                <a className="text-gray-300 transition hover:border-b" href="#">
+                <span className="text-gray-300 transition hover:border-b">
                   @tvs_driftr
-                </a>
+                </span>
               </div>
               <div className="mt-5 flex flex-col lg:flex-row justify-center gap-4 items-center lg:items-start lg:justify-start">
                 <Mail />

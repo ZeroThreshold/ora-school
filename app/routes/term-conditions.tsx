@@ -5,10 +5,11 @@ const imageStr = "/images/assets/banner2.jpg";
 export default function Terms() {
   return (
     <InfoLayout imageStr={imageStr} title="Policy">
-      <div className="bg-whtie dark:bg-gray-800 py-10">
+      <div className="bg-white py-10">
         <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8">
           <h1 className="text-3xl font-bold mb-4">Terms And Conditions</h1>
           <div>
+            <p>This terms are effective from November 6th, 2024</p>
             <h2 className="text-2xl font-bold mt-8 mb-4">Terms of use</h2>
             <ul className="list-disc pl-8 mb-4">
               <li>
@@ -71,12 +72,12 @@ export default function Terms() {
                 Platform.
               </li>
               <li>
-                "Content Provider" refers to the party providing Content on this
-                Platform, which may include us or a third party.
+                &quot;Content Provider&quot; refers to the party providing
+                Content on this Platform, which may include us or a third party.
               </li>
               <li>
-                "Platform" means our online portal that allows users to visit or
-                purchase our Products and Services.
+                &quot;Platform&quot; means our online portal that allows users
+                to visit or purchase our Products and Services.
               </li>
               <li>
                 “Product” or “Products” encompasses all merchandise, goods,
@@ -84,17 +85,18 @@ export default function Terms() {
                 website or business affiliated with us.
               </li>
               <li>
-                "Service" or “Services” denotes the facilities provided to you
-                on the Platform by us.
+                &quot;Service&quot; or “Services” denotes the facilities
+                provided to you on the Platform by us.
               </li>
               <li>
-                "Supported Device" refers to a mobile device, computer, or other
-                electronic device that is authorized for operating our Platform.
+                &quot;Supported Device&quot; refers to a mobile device,
+                computer, or other electronic device that is authorized for
+                operating our Platform.
               </li>
               <li>
-                “Us”, “Our,” and “We” refers to Mr. Nilesh Dhumal, the Owner of
-                the brand “OFFROADACADEMIES” operating this Platform, along with
-                their affiliates.
+                “Us”, “Our,” and “We” refers to Mr. Nilesh NANASAHEB Dhumal, the
+                Owner of the brand “OFFROADACADEMIES” operating this Platform,
+                along with their affiliates.
               </li>
               <li>
                 “You,” “Yours,” “Users,” or “User” signifies any natural or
@@ -393,12 +395,12 @@ export default function Terms() {
               broadcast content and materials to us or on the Platform. This
               includes, but is not limited to, text, writings, video, audio,
               photographs, graphics, comments, suggestions, personal
-              information, or other materials (collectively, "Contributions").
-              Contributions may be visible to other Users of the Platform and
-              through third-party websites. As such, any Contributions you
-              transmit may be considered non-confidential and non-proprietary.
-              By creating or making available any Contributions, you represent
-              and warrant that:
+              information, or other materials (collectively,
+              &quot;Contributions&quot;). Contributions may be visible to other
+              Users of the Platform and through third-party websites. As such,
+              any Contributions you transmit may be considered non-confidential
+              and non-proprietary. By creating or making available any
+              Contributions, you represent and warrant that:
             </p>
             <ul className="mb-4 ">
               <li>
@@ -530,55 +532,55 @@ export default function Terms() {
             <p className="mb-4">
               You acknowledge and agree that any questions, comments,
               suggestions, ideas, feedback, or other information you provide to
-              us regarding the Platform ("Submissions") are non-confidential and
-              shall become our exclusive property. We shall own all rights,
-              including intellectual property rights, and shall be entitled to
-              unrestricted use and dissemination of these Submissions for any
-              lawful purpose, whether commercial or otherwise, without any
-              obligation to provide acknowledgment or compensation to you. You
-              hereby waive all moral rights to any such Submissions and warrant
-              that they are original to you or that you have the right to submit
-              them. You agree that there shall be no recourse against us for any
-              alleged or actual infringement or misappropriation of any
-              proprietary right in your Submissions.
+              us regarding the Platform (&quot;Submissions&quot;) are
+              non-confidential and shall become our exclusive property. We shall
+              own all rights, including intellectual property rights, and shall
+              be entitled to unrestricted use and dissemination of these
+              Submissions for any lawful purpose, whether commercial or
+              otherwise, without any obligation to provide acknowledgment or
+              compensation to you. You hereby waive all moral rights to any such
+              Submissions and warrant that they are original to you or that you
+              have the right to submit them. You agree that there shall be no
+              recourse against us for any alleged or actual infringement or
+              misappropriation of any proprietary right in your Submissions.
             </p>
             <h2 className="text-xl font-semibold mb-4">
               12. THIRD-PARTY WEB PLATFORMS AND CONTENT
             </h2>
             <p className="mb-4">
               The Platform may contain links to other web platforms
-              ("Third-Party Web Platforms") or you may receive content via the
-              Platform that includes articles, photographs, text, graphics,
-              designs, music, sound, video, information, platforms, software,
-              and other materials belonging to or originating from third parties
-              ("Third-Party Content"). We do not investigate, monitor, or check
-              the accuracy, appropriateness, or completeness of any Third-Party
-              Web Platforms or Third-Party Content, and we are not responsible
-              for any Third-Party Web Platforms accessed through the Platform or
-              for any Third-Party Content posted on, available through, or
-              installed from the Platform. This includes, but is not limited to,
-              the content, accuracy, offensiveness, opinions, reliability,
-              privacy practices, or policies of such Third-Party Web Platforms
-              or Third-Party Content. Inclusion of, linking to, or allowing the
-              use or installation of any Third-Party Web Platforms or
-              Third-Party Content does not imply our approval or endorsement. If
-              you choose to leave the Platform and access Third-Party Web
-              Platforms or use or install any Third-Party Content, you do so at
-              your own risk, and these Terms of Use will no longer apply. It is
-              advisable to review the applicable terms and policies, including
-              privacy and data collection practices, of any web platform you
-              navigate to from the Platform or regarding any platforms you use
-              or install from the Platform. Any purchases made through
-              Third-Party Web Platforms are conducted through other web
-              platforms and companies, and we assume no responsibility for these
-              transactions, which are solely between you and the respective
-              third party. You agree that we do not endorse the products or
-              services offered on Third-Party Web Platforms and you shall hold
-              us harmless from any harm arising from your purchase of such
-              products or services. Furthermore, you shall indemnify us for any
-              losses or harm incurred by you related to or resulting from any
-              Third-Party Content or any interactions with Third-Party Web
-              Applications.
+              (&quot;Third-Party Web Platforms&quot;) or you may receive content
+              via the Platform that includes articles, photographs, text,
+              graphics, designs, music, sound, video, information, platforms,
+              software, and other materials belonging to or originating from
+              third parties (&quot;Third-Party Content&quot;). We do not
+              investigate, monitor, or check the accuracy, appropriateness, or
+              completeness of any Third-Party Web Platforms or Third-Party
+              Content, and we are not responsible for any Third-Party Web
+              Platforms accessed through the Platform or for any Third-Party
+              Content posted on, available through, or installed from the
+              Platform. This includes, but is not limited to, the content,
+              accuracy, offensiveness, opinions, reliability, privacy practices,
+              or policies of such Third-Party Web Platforms or Third-Party
+              Content. Inclusion of, linking to, or allowing the use or
+              installation of any Third-Party Web Platforms or Third-Party
+              Content does not imply our approval or endorsement. If you choose
+              to leave the Platform and access Third-Party Web Platforms or use
+              or install any Third-Party Content, you do so at your own risk,
+              and these Terms of Use will no longer apply. It is advisable to
+              review the applicable terms and policies, including privacy and
+              data collection practices, of any web platform you navigate to
+              from the Platform or regarding any platforms you use or install
+              from the Platform. Any purchases made through Third-Party Web
+              Platforms are conducted through other web platforms and companies,
+              and we assume no responsibility for these transactions, which are
+              solely between you and the respective third party. You agree that
+              we do not endorse the products or services offered on Third-Party
+              Web Platforms and you shall hold us harmless from any harm arising
+              from your purchase of such products or services. Furthermore, you
+              shall indemnify us for any losses or harm incurred by you related
+              to or resulting from any Third-Party Content or any interactions
+              with Third-Party Web Applications.
             </p>
             <h2 className="text-xl font-semibold mb-4">13. ADVERTISERS</h2>
             <p className="mb-4">
