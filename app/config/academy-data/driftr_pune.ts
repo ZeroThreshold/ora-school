@@ -34,11 +34,11 @@ export const DRIFT_PUNE = {
   address: "TVS driftR Adventure, Andra Dam Rd, Rajpuri, Maharashtra 412106",
   logo: "/images/logos/driftr-black.webp",
   variant: "driftrblack",
-  bannerImage: "/images/general/driftrbanner.jpg",
+  bannerImage: "/images/general/driftrbanner.webp",
   courses: {
     1: {
       title: "Level 1: Flat track training - Gears Not Included",
-      img: "/images/general/flattrack1.jpg",
+      img: "/images/general/flattrack1.webp",
       coursePayLink: "https://rzp.io/rzp/5iCc0QG",
       infoItems: [
         {
@@ -109,7 +109,7 @@ export const DRIFT_PUNE = {
     },
     2: {
       title: "Level 1: Flat track training - Gears Included",
-      img: "/images/general/flattrack2.jpg",
+      img: "/images/general/flattrack2.webp",
       level: "Intermediate",
       coursePayLink: "https://rzp.io/rzp/pn95wjL",
       infoItems: [
