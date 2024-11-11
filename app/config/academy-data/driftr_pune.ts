@@ -39,7 +39,7 @@ export const DRIFT_PUNE = {
     1: {
       title: "Level 1: Flat track training - Gears Not Included",
       img: "/images/general/flattrack1.webp",
-      coursePayLink: "https://rzp.io/rzp/5iCc0QG",
+      coursePayLink: "https://rzp.io/rzp/fQaTeet",
       infoItems: [
         {
           question: "What i will learn?",
@@ -111,7 +111,7 @@ export const DRIFT_PUNE = {
       title: "Level 1: Flat track training - Gears Included",
       img: "/images/general/flattrack2.webp",
       level: "Intermediate",
-      coursePayLink: "https://rzp.io/rzp/pn95wjL",
+      coursePayLink: "https://rzp.io/rzp/OmhBkQzm",
       infoItems: [
         {
           question: "What i will learn?",
