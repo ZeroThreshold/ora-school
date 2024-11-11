@@ -100,7 +100,7 @@ export const PRODIRT_PUNE = {
           question: "What i will learn?",
           listItem: true,
           info: [
-            "Recap of/ Introduction Clinic",
+            "Recap of Introduction Clinic",
             "Exercises to increase control and balance",
             "Techniques to ride Inclines & Declines",
             "Use of electronic aids on your bike",
