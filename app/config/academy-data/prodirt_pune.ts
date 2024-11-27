@@ -41,6 +41,8 @@ export const PRODIRT_PUNE = {
     1: {
       title: "Off-Road Introduction Clinic: (Beginner)",
       img: "/images/general/trials.jpeg",
+      coursePayHtml: "pl_PQDMnJptsa4ZT8",
+      coursePayLink: false,
       infoItems: [
         {
           question: "What i will learn?",
