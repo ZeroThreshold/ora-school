@@ -37,6 +37,7 @@ const BookNow = ({
   locationData: any;
 }) => {
   const leastprice = findMinPrice(course.pricelist);
+  console.log("leastprice", course);
 
   return (
     <>
@@ -44,14 +45,24 @@ const BookNow = ({
         <div className="text-2xl">
           Starts from <strong className="text-3xl">₹ {leastprice}</strong>
         </div>
-        <a
-          href={course.coursePayLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-center border p-3 bg-slate-950 text-white font-medium rounded-lg"
-        >
-          Book Now
-        </a>
+        {course.coursePayLink ? (
+          <a
+            href={course.coursePayLink ?? ""}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-center border p-3 bg-slate-950 text-white font-medium rounded-lg"
+          >
+            Book Now
+          </a>
+        ) : (
+          <form className="flex items-center justify-center">
+            <script
+              src="https://checkout.razorpay.com/v1/payment-button.js"
+              data-payment_button_id={course.coursePayHtml}
+              async
+            ></script>
+          </form>
+        )}
       </div>
     </>
   );
