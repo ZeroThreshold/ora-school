@@ -41,8 +41,7 @@ export const PRODIRT_PUNE = {
     1: {
       title: "Off-Road Introduction Clinic: (Beginner)",
       img: "/images/general/trials.jpeg",
-      coursePayHtml: "pl_PQDMnJptsa4ZT8",
-      coursePayLink: false,
+      coursePayLink: "https://rzp.io/rzp/fvkXoMy1",
       infoItems: [
         {
           question: "What i will learn?",
@@ -127,6 +126,7 @@ export const PRODIRT_PUNE = {
     2: {
       title: "Intermediate Off-Road Clinic: Level 1",
       img: "/images/general/learning.jpeg",
+      coursePayLink: "https://rzp.io/rzp/HkGlEktQ",
       infoItems: [
         {
           question: "What i will learn?",
@@ -200,6 +200,7 @@ export const PRODIRT_PUNE = {
     3: {
       title: "Open Practice Session",
       img: "/images/general/exp.jpg",
+      coursePayLink: "https://rzp.io/rzp/qqgyU4g",
       infoItems: [
         {
           question: "Who is eligible?",
@@ -247,6 +248,7 @@ export const PRODIRT_PUNE = {
     4: {
       title: "Kids Clinic",
       img: "/images/general/individualfeed.jpg",
+      coursePayLink: "https://rzp.io/rzp/qEA7yOc",
       infoItems: [
         {
           question: "What will my kid learn and general eligibility?",
@@ -317,6 +319,7 @@ export const PRODIRT_PUNE = {
     5: {
       title: "Flat Track PRO Clinic",
       img: "/images/general/driftskid.jpg",
+      coursePayLink: "https://rzp.io/rzp/ShOiNAqO",
       infoItems: [
         {
           question: "What i will learn?",
@@ -394,6 +397,7 @@ export const PRODIRT_PUNE = {
     6: {
       title: "Adventure Membership",
       img: "/images/general/advmem.jpg",
+      coursePayLink: "https://rzp.io/rzp/2XgOTKX",
       infoItems: [
         {
           question: "Things Covered:",
