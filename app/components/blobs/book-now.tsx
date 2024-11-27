@@ -37,7 +37,6 @@ const BookNow = ({
   locationData: any;
 }) => {
   const leastprice = findMinPrice(course.pricelist);
-  console.log("leastprice", course);
 
   return (
     <>
