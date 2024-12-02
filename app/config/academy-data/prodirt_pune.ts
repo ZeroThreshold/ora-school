@@ -32,7 +32,8 @@ export const PRODIRT_PUNE = {
     "adventure biking courses Pune",
     "riding lessons for beginners Mumbai",
   ],
-  address: "Pro Dirt Adventure, Andra Dam Rd, Rajpuri, Maharashtra 412106",
+  address:
+    "Pro Dirt Adventure, Rajpuri, Near Andra Dam, MIDC Road Talegaon Dabhade, Maharashtra Pune 412106",
   href: "/locations/prodirtadventure",
   logo: "/images/logos/prodirt-black.webp",
   variant: "prodirtblack",
