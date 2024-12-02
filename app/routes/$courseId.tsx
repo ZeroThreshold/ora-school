@@ -47,6 +47,12 @@ type CourseData = {
   }[];
   level: string;
 };
+
+type CourseLoaderData = {
+  course: CourseData;
+  locationAddress: string;
+};
+
 export const loader: LoaderFunction = async ({ request, params }) => {
   const { courseId } = params;
 
@@ -55,15 +61,16 @@ export const loader: LoaderFunction = async ({ request, params }) => {
     LOCATION[locationKey]?.courses[
       courseId as unknown as keyof (typeof LOCATION)[typeof locationKey]["courses"]
     ];
+  const locationAddress = LOCATION[locationKey]?.address;
 
   if (!course) {
     throw new Response("Course not found", { status: 404 });
   }
 
-  return course;
+  return { course, locationAddress };
 };
 export default function CourseDetails() {
-  const course = useLoaderData<CourseData>();
+  const { course, locationAddress } = useLoaderData<CourseLoaderData>();
 
   return (
     <div>
@@ -82,10 +89,7 @@ export default function CourseDetails() {
               Level: <span className="text-gray-500">{course.level}</span>
             </div>
             <div className="text-base mt-1">
-              Address:{" "}
-              <span className="text-gray-500">
-                {LOCATION.driftr_pune.address}
-              </span>
+              Address: <span className="text-gray-500">{locationAddress}</span>
             </div>
           </div>
           <BookNow course={course} locationData={LOCATION} />
