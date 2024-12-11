@@ -436,7 +436,7 @@ export const PRODIRT_PUNE = {
     7: {
       title: "Kawasaki Off-Road Program",
       img: "/images/general/kawasaki.jpeg",
-      coursePayLink: "https://rzp.io/rzp/2XgOTKX",
+      coursePayLink: "https://rzp.io/rzp/Z1qwV3N",
       infoItems: [
         {
           question: "Basic Riding Techniques",
