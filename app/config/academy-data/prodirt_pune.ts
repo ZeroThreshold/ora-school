@@ -433,6 +433,100 @@ export const PRODIRT_PUNE = {
       description:
         "Learn The Art of Sliding a Motorcycle. This program is focused on the fundamentals of sliding a motorcycle in a controlled environment. The trainers break down the sliding technique and provide you with the knowledge that even experienced riders have yet to figure out",
     },
+    7: {
+      title: "Kawasaki Off-Road Program",
+      img: "/images/general/kawasaki.jpeg",
+      coursePayLink: "https://rzp.io/rzp/2XgOTKX",
+      infoItems: [
+        {
+          question: "Basic Riding Techniques",
+          listItem: true,
+          info: [
+            "Mounting and dismounting the bike",
+            "Starting and stopping the bike",
+            "Throttle control and braking techniques",
+            "Basic body positioning and balance",
+            "F&B 1 Meal per session",
+            "Duration 4 months",
+          ],
+        },
+        {
+          question: "Practice Session",
+          listItem: true,
+          info: [
+            "Introduction to Off-Road Terrain, Riding on gravel and dirt tracks.",
+            "Practicing throttle and brake control.",
+            "Basic obstacle navigation, turns, stops, and starts.",
+            "Uphill and downhill riding techniques.",
+            "Guided trail ride on varied terrain. Applying learned techniques in real-world scenarios.",
+            "Supervised practice with instructor feedback.",
+            "Feedback session.",
+          ],
+        },
+        {
+          question: "Inclusions",
+          listItem: true,
+          info: [
+            "Use of Kawasaki 230 KLX 2024 bike.",
+            "Full protective riding gear (helmet, gloves, boots, etc.) (available on rent if you don’t have).",
+            "Professional instruction and supervision.",
+          ],
+        },
+      ],
+      batches: [
+        {
+          title: "Morning Session",
+          times: [
+            {
+              time: "9:00 am to 12:00 pm (Reporting Time: 8:30 am)",
+              active: true,
+            },
+          ],
+        },
+        {
+          title: "Afternoon Session",
+          times: [
+            {
+              time: "1:00 pm to 4:00 pm (Reporting Time: 12:30 pm)",
+              active: true,
+            },
+          ],
+        },
+      ],
+      pricelist: [
+        {
+          title: "Individual Session",
+          prices: [
+            {
+              price: 5000,
+              discount: 5000,
+              duration: "Kawasaki Price: ₹5,000",
+              minRiders: -1,
+              maxRiders: -1,
+              special: true,
+              spdesc: "Usual Price: ₹10,000",
+            },
+          ],
+        },
+        {
+          title: "Group Session",
+          prices: [
+            {
+              price: 3750,
+              discount: 3750,
+              duration: "Kawasaki Price: ₹3,750",
+              minRiders: -1,
+              maxRiders: -1,
+              special: true,
+              spdesc: "Usual Price: ₹5,000",
+            },
+          ],
+        },
+      ],
+      level: "Beginner",
+      description:
+        "Experience the thrill of off-road biking with PRO DIRT ADVENTURE on the Kawasaki KLX230 Rs, featuring expert training, protective gear, and exciting trail rides.",
+    },
   },
   description:
     "ProDirt Adventure isn't just a riding destination; it's your launchpad for off-road mastery. We are passionate about empowering riders across Maharashtra with the skills and confidence to conquer any terrain. Our commitment to off-road education shines through our diverse training programs for both two-wheelers and four-wheelers.",
