@@ -199,241 +199,6 @@ export const PRODIRT_PUNE = {
         "These courses build on foundational skills, introducing challenging terrain, inclines, declines, and technical maneuvers. A full Day of self-paced training & riding to boost your confidence and teaches safe biking on gravel roads and trails.",
     },
     3: {
-      title: "Open Practice Session",
-      img: "/images/general/exp.jpg",
-      coursePayLink: "https://rzp.io/rzp/qqgyU4g",
-      infoItems: [
-        {
-          question: "Who is eligible?",
-          listItem: false,
-          info: "Open to members, athletes, and riders who have completed at least an introductory course with us. Enjoy track time at your own pace, allowing you to focus on the areas you want to improve.",
-        },
-        {
-          question: "Things to carry",
-          listItem: false,
-          info: "Riders carry their own motor cycle and safety gear which suits them best, Riding jackets & Pants, Helmets, Gloves, and Boots are compulsory, Knee, Elbow & Chest Guards are mandatory. Refillable water bottle or hydration bag.",
-        },
-      ],
-      batches: [
-        {
-          title: "Half Day",
-          times: [
-            {
-              time: "09:00 AM - 12:00 PM (Reporting Time 08:00 AM)",
-              active: true,
-            },
-            {
-              time: "02:00 PM - 05:00 PM (Reporting Time 01:00 PM)",
-              active: true,
-            },
-          ],
-        },
-      ],
-      pricelist: [
-        {
-          title: "Single Session Pass",
-          prices: [
-            {
-              price: 3500,
-              duration: "Half",
-              minRiders: -1,
-              maxRiders: -1,
-            },
-          ],
-        },
-      ],
-      level: "Intermediate",
-      description:
-        "Our Open Practice Sessions are designed for riders who are members, athletes, or those who have completed an introductory course with us anywhere in India. These sessions provide track time in a supportive and controlled environment allowing riders to refine skills, prepare for events, or simply enjoy the track at their own pace.",
-    },
-    4: {
-      title: "Kids Clinic",
-      img: "/images/general/individualfeed.jpg",
-      coursePayLink: "https://rzp.io/rzp/qEA7yOc",
-      infoItems: [
-        {
-          question: "What will my kid learn and general eligibility?",
-          listItem: true,
-          info: [
-            "Age Group: Suitable for children aged 6-14 years.",
-            "Skill Development: Focus on basic riding skills, balance, coordination, and control.",
-            "Safety Education: Emphasizes the importance of safety gear, road rules, and responsible riding.",
-            "Fun and Engaging: Interactive and fun activities to keep kids engaged and excited about learning.",
-            "Professional Instructors: Trained instructors with experience in teaching children, ensuring a supportive and safe learning environment.",
-          ],
-        },
-      ],
-      batches: [
-        {
-          title: "Half Day",
-          times: [
-            {
-              time: "09:00 AM - 12:00 PM (Reporting Time 08:00 AM)",
-              active: true,
-            },
-            {
-              time: "02:00 PM - 05:00 PM (Reporting Time 01:00 PM)",
-              active: true,
-            },
-          ],
-        },
-      ],
-      pricelist: [
-        {
-          title: "Half Day Per Session",
-          prices: [
-            {
-              price: 10000,
-              duration: "Half Day",
-              minRiders: -1,
-              maxRiders: -1,
-            },
-          ],
-        },
-        {
-          title: "Full Day Per Session",
-          prices: [
-            {
-              price: 15000,
-              duration: "Full Day",
-              minRiders: -1,
-              maxRiders: -1,
-            },
-          ],
-        },
-        {
-          title: "Bike Rental 85 cc Yamaha",
-          prices: [
-            {
-              price: 5000,
-              duration: "Full Day",
-              minRiders: -1,
-              maxRiders: -1,
-            },
-          ],
-        },
-      ],
-      level: "Beginner/Introduction",
-      description:
-        "Our Kids Training Program is designed to introduce children to the exciting world of motorcycling at an early stage. This program aims to build confidence, develop riding skills, and instill a sense of responsibility in young riders, preparing them to become future athletes or safe and responsible citizens on public roads.",
-    },
-    5: {
-      title: "Flat Track PRO Clinic",
-      img: "/images/general/driftskid.jpg",
-      coursePayLink: "https://rzp.io/rzp/ShOiNAqO",
-      infoItems: [
-        {
-          question: "What i will learn?",
-          listItem: true,
-          info: [
-            "Introduction to Sliding Techniques",
-            "Safety Precautions",
-            "Understanding Motorcycle Dynamics",
-            "Fundamentals of Sliding",
-            "Body Positioning",
-            "Throttle and Brake Control",
-            "Initiating a Slide",
-            "Maintaining a Slide",
-            "Recovering from a Slide",
-            "Common Mistakes and How to Avoid Them",
-          ],
-        },
-        {
-          question: "Things to carry",
-          listItem: false,
-          info: "Riders carry their own safety gear which suits them best, Riding jackets & Pants, Helmets, Gloves, and Boots are compulsory, Knee, Elbow & Chest Guards are mandatory. Refillable water bottle or hydration bag.",
-        },
-        {
-          question:
-            "Which bike I can Bring? OR Suitable Bikes for this Program?",
-          listItem: false,
-          info: "KTM ADV250/390, BMW 310GS, Himalayan, Xpulse, Yezdi Jawa, Triumph ADV Bike, Honda Africa Twin BMW GS Series, Harley Davidson Pan America",
-        },
-        {
-          question: "Inclusions",
-          listItem: true,
-          info: [
-            "Training Session.",
-            "A professional & knowledgeable instructor.",
-          ],
-        },
-        {
-          question: "Exclusions",
-          listItem: true,
-          info: ["Anything other than inclusions."],
-        },
-      ],
-      batches: [
-        {
-          title: "Half Day",
-          times: [
-            {
-              time: "09:00 AM - 12:00 PM (Reporting Time 08:00 AM)",
-              active: true,
-            },
-            {
-              time: "02:00 PM - 05:00 PM (Reporting Time 01:00 PM)",
-              active: true,
-            },
-          ],
-        },
-      ],
-      pricelist: [
-        {
-          title: "Private",
-          prices: [
-            {
-              price: 10500,
-              duration: "Half Day",
-              minRiders: -1,
-              maxRiders: 4,
-            },
-          ],
-        },
-      ],
-      level: "PRO",
-      description:
-        "Learn The Art of Sliding a Motorcycle. This program is focused on the fundamentals of sliding a motorcycle in a controlled environment. The trainers break down the sliding technique and provide you with the knowledge that even experienced riders have yet to figure out",
-    },
-    6: {
-      title: "Adventure Membership",
-      img: "/images/general/advmem.jpg",
-      coursePayLink: "https://rzp.io/rzp/2XgOTKX",
-      infoItems: [
-        {
-          question: "Things Covered:",
-          listItem: true,
-          info: [
-            "6 ride sessions",
-            "Free bike parking",
-            "Coach Accompany",
-            "Access to All tracks and trails",
-            "F&B 1 Meal per session",
-            "Duration 4 months",
-          ],
-        },
-      ],
-      batches: [],
-      pricelist: [
-        {
-          title: "Offer Price",
-          prices: [
-            {
-              price: 50400,
-              duration: "50,400 INR + 18% GST",
-              minRiders: -1,
-              maxRiders: -1,
-              special: true,
-              spdesc: "Membership Value: 63,000 INR",
-            },
-          ],
-        },
-      ],
-      level: "PRO",
-      description:
-        "Learn The Art of Sliding a Motorcycle. This program is focused on the fundamentals of sliding a motorcycle in a controlled environment. The trainers break down the sliding technique and provide you with the knowledge that even experienced riders have yet to figure out",
-    },
-    7: {
       title: "Kawasaki Off-Road Program",
       img: "/images/general/kawasaki.jpeg",
       coursePayLink: "https://rzp.io/rzp/Z1qwV3N",
@@ -522,10 +287,258 @@ export const PRODIRT_PUNE = {
             },
           ],
         },
+        {
+          title: "Kawasaki KLX 230 RS Bike Rental",
+          prices: [
+            {
+              price: 100000,
+              duration:
+                "KLX 230 RS Bike Rental worth 5500 INR is Completely Free for this program",
+              special: true,
+              minRiders: -1,
+              maxRiders: -1,
+            },
+          ],
+        },
       ],
       level: "Beginner",
       description:
         "Experience the thrill of off-road biking with PRO DIRT ADVENTURE on the Kawasaki KLX230 Rs, featuring expert training, protective gear, and exciting trail rides.",
+    },
+    4: {
+      title: "Open Practice Session",
+      img: "/images/general/exp.jpg",
+      coursePayLink: "https://rzp.io/rzp/qqgyU4g",
+      infoItems: [
+        {
+          question: "Who is eligible?",
+          listItem: false,
+          info: "Open to members, athletes, and riders who have completed at least an introductory course with us. Enjoy track time at your own pace, allowing you to focus on the areas you want to improve.",
+        },
+        {
+          question: "Things to carry",
+          listItem: false,
+          info: "Riders carry their own motor cycle and safety gear which suits them best, Riding jackets & Pants, Helmets, Gloves, and Boots are compulsory, Knee, Elbow & Chest Guards are mandatory. Refillable water bottle or hydration bag.",
+        },
+      ],
+      batches: [
+        {
+          title: "Half Day",
+          times: [
+            {
+              time: "09:00 AM - 12:00 PM (Reporting Time 08:00 AM)",
+              active: true,
+            },
+            {
+              time: "02:00 PM - 05:00 PM (Reporting Time 01:00 PM)",
+              active: true,
+            },
+          ],
+        },
+      ],
+      pricelist: [
+        {
+          title: "Single Session Pass",
+          prices: [
+            {
+              price: 3500,
+              duration: "Half",
+              minRiders: -1,
+              maxRiders: -1,
+            },
+          ],
+        },
+      ],
+      level: "Intermediate",
+      description:
+        "Our Open Practice Sessions are designed for riders who are members, athletes, or those who have completed an introductory course with us anywhere in India. These sessions provide track time in a supportive and controlled environment allowing riders to refine skills, prepare for events, or simply enjoy the track at their own pace.",
+    },
+    5: {
+      title: "Kids Clinic",
+      img: "/images/general/individualfeed.jpg",
+      coursePayLink: "https://rzp.io/rzp/qEA7yOc",
+      infoItems: [
+        {
+          question: "What will my kid learn and general eligibility?",
+          listItem: true,
+          info: [
+            "Age Group: Suitable for children aged 6-14 years.",
+            "Skill Development: Focus on basic riding skills, balance, coordination, and control.",
+            "Safety Education: Emphasizes the importance of safety gear, road rules, and responsible riding.",
+            "Fun and Engaging: Interactive and fun activities to keep kids engaged and excited about learning.",
+            "Professional Instructors: Trained instructors with experience in teaching children, ensuring a supportive and safe learning environment.",
+          ],
+        },
+      ],
+      batches: [
+        {
+          title: "Half Day",
+          times: [
+            {
+              time: "09:00 AM - 12:00 PM (Reporting Time 08:00 AM)",
+              active: true,
+            },
+            {
+              time: "02:00 PM - 05:00 PM (Reporting Time 01:00 PM)",
+              active: true,
+            },
+          ],
+        },
+      ],
+      pricelist: [
+        {
+          title: "Half Day Per Session",
+          prices: [
+            {
+              price: 10000,
+              duration: "Half Day",
+              minRiders: -1,
+              maxRiders: -1,
+            },
+          ],
+        },
+        {
+          title: "Full Day Per Session",
+          prices: [
+            {
+              price: 15000,
+              duration: "Full Day",
+              minRiders: -1,
+              maxRiders: -1,
+            },
+          ],
+        },
+        {
+          title: "Bike Rental 85 cc Yamaha",
+          prices: [
+            {
+              price: 5000,
+              duration: "Full Day",
+              minRiders: -1,
+              maxRiders: -1,
+            },
+          ],
+        },
+      ],
+      level: "Beginner/Introduction",
+      description:
+        "Our Kids Training Program is designed to introduce children to the exciting world of motorcycling at an early stage. This program aims to build confidence, develop riding skills, and instill a sense of responsibility in young riders, preparing them to become future athletes or safe and responsible citizens on public roads.",
+    },
+    6: {
+      title: "Flat Track PRO Clinic",
+      img: "/images/general/driftskid.jpg",
+      coursePayLink: "https://rzp.io/rzp/ShOiNAqO",
+      infoItems: [
+        {
+          question: "What i will learn?",
+          listItem: true,
+          info: [
+            "Introduction to Sliding Techniques",
+            "Safety Precautions",
+            "Understanding Motorcycle Dynamics",
+            "Fundamentals of Sliding",
+            "Body Positioning",
+            "Throttle and Brake Control",
+            "Initiating a Slide",
+            "Maintaining a Slide",
+            "Recovering from a Slide",
+            "Common Mistakes and How to Avoid Them",
+          ],
+        },
+        {
+          question: "Things to carry",
+          listItem: false,
+          info: "Riders carry their own safety gear which suits them best, Riding jackets & Pants, Helmets, Gloves, and Boots are compulsory, Knee, Elbow & Chest Guards are mandatory. Refillable water bottle or hydration bag.",
+        },
+        {
+          question:
+            "Which bike I can Bring? OR Suitable Bikes for this Program?",
+          listItem: false,
+          info: "KTM ADV250/390, BMW 310GS, Himalayan, Xpulse, Yezdi Jawa, Triumph ADV Bike, Honda Africa Twin BMW GS Series, Harley Davidson Pan America",
+        },
+        {
+          question: "Inclusions",
+          listItem: true,
+          info: [
+            "Training Session.",
+            "A professional & knowledgeable instructor.",
+          ],
+        },
+        {
+          question: "Exclusions",
+          listItem: true,
+          info: ["Anything other than inclusions."],
+        },
+      ],
+      batches: [
+        {
+          title: "Half Day",
+          times: [
+            {
+              time: "09:00 AM - 12:00 PM (Reporting Time 08:00 AM)",
+              active: true,
+            },
+            {
+              time: "02:00 PM - 05:00 PM (Reporting Time 01:00 PM)",
+              active: true,
+            },
+          ],
+        },
+      ],
+      pricelist: [
+        {
+          title: "Private",
+          prices: [
+            {
+              price: 10500,
+              duration: "Half Day",
+              minRiders: -1,
+              maxRiders: 4,
+            },
+          ],
+        },
+      ],
+      level: "PRO",
+      description:
+        "Learn The Art of Sliding a Motorcycle. This program is focused on the fundamentals of sliding a motorcycle in a controlled environment. The trainers break down the sliding technique and provide you with the knowledge that even experienced riders have yet to figure out",
+    },
+    7: {
+      title: "Adventure Membership",
+      img: "/images/general/advmem.jpg",
+      coursePayLink: "https://rzp.io/rzp/2XgOTKX",
+      infoItems: [
+        {
+          question: "Things Covered:",
+          listItem: true,
+          info: [
+            "6 ride sessions",
+            "Free bike parking",
+            "Coach Accompany",
+            "Access to All tracks and trails",
+            "F&B 1 Meal per session",
+            "Duration 4 months",
+          ],
+        },
+      ],
+      batches: [],
+      pricelist: [
+        {
+          title: "Offer Price",
+          prices: [
+            {
+              price: 50400,
+              duration: "50,400 INR + 18% GST",
+              minRiders: -1,
+              maxRiders: -1,
+              special: true,
+              spdesc: "Membership Value: 63,000 INR",
+            },
+          ],
+        },
+      ],
+      level: "PRO",
+      description:
+        "Learn The Art of Sliding a Motorcycle. This program is focused on the fundamentals of sliding a motorcycle in a controlled environment. The trainers break down the sliding technique and provide you with the knowledge that even experienced riders have yet to figure out",
     },
   },
   description:
