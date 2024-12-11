@@ -273,20 +273,20 @@ export const PRODIRT_PUNE = {
             },
           ],
         },
-        {
-          title: "Group Session",
-          prices: [
-            {
-              price: 3750,
-              discount: 3750,
-              duration: "Kawasaki Price: ₹3,750",
-              minRiders: -1,
-              maxRiders: -1,
-              special: true,
-              spdesc: "Usual Price: ₹5,000",
-            },
-          ],
-        },
+        // {
+        //   title: "Group Session",
+        //   prices: [
+        //     {
+        //       price: 3750,
+        //       discount: 3750,
+        //       duration: "Kawasaki Price: ₹3,750",
+        //       minRiders: -1,
+        //       maxRiders: -1,
+        //       special: true,
+        //       spdesc: "Usual Price: ₹5,000",
+        //     },
+        //   ],
+        // },
         {
           title: "Kawasaki KLX 230 RS Bike Rental",
           prices: [
