@@ -211,8 +211,7 @@ export const PRODIRT_PUNE = {
             "Starting and stopping the bike",
             "Throttle control and braking techniques",
             "Basic body positioning and balance",
-            "F&B 1 Meal per session",
-            "Duration 4 months",
+            "Duration 3 Hours",
           ],
         },
         {
